@@ -1,0 +1,24 @@
+body{
+    background: url(images/puppy.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+tr{
+    color:black;
+    font-weight: bold;
+    font-size: larger;
+    align-content: center;
+}
+th{
+    color:black;
+}
+.order{
+    color:black;
+    font-weight: bolder;
+}
+.logo {
+    float:left;
+    width:10px;
+    height:10px;
+    padding: 100px;
+}

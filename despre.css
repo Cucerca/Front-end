@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Quiksand;
+}
+
+.paralax_1 {
+    background-image: url(images/puppy.jpg);
+    height: 100vh;
+}
+
+.paralax_2 {
+    background-image: url(images/puppy.jpg);
+    height: 70vh;
+}
+
+.paralax_3 {
+    background-image: url(images/puppy.jpg);
+    height: 700px;
+}
+
+.paralax_1,
+.paralax_2,
+.paralax_3 {
+    position: relative;
+    opacity: 0.65;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text {
+    text-align: center;
+    background-color: white;
+    padding: 20px 80px;
+    font-size: 35px;
+}
+
+.caption {
+    position: absolute;
+    left: auto;
+    top: 35%;
+    padding: 20px 60px;
+    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fafafa;
+    font-size: 60px;
+}

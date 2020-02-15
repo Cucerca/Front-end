@@ -1,0 +1,23 @@
+body{
+    background: url(images/puppy.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding:20px;
+}
+tr, td{
+    border: 2px solid black;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.subtitlu{
+    color:black;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 5px;
+}
